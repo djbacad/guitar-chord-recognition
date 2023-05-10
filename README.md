@@ -24,5 +24,8 @@ Limitations:
 Future Work:
 - Include audio data in the prediction
 
+Try the code:
+```cmd
+python src/models/predict.py
 
 
