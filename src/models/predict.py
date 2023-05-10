@@ -15,7 +15,7 @@ model = tf.keras.models.load_model('models/vision/min_val_loss.h5',
 class_labels = {0: 'CMajor', 1: 'DMajor', 2: 'GMajor'}
 
 # Load the video capture device
-cap = cv2.VideoCapture('data/test.mp4')
+cap = cv2.VideoCapture('test/test.mp4')
 
 # Create a window to display the video
 cv2.namedWindow('Video', cv2.WINDOW_NORMAL)
