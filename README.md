@@ -27,5 +27,3 @@ Future Work:
 Try the code:
 ```cmd
 python src/models/predict.py
-
-
