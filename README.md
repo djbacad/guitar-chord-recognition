@@ -1,7 +1,7 @@
 Real-time Guitar Chord Recognition
 ==================================
 
-![prediction](https://github.com/djbacad/guitar-chord-recognition/assets/61301478/c916eee2-7752-486b-b8d4-5d5839b30772)
+![prediction](https://github.com/djbacad/guitar-chord-recognition/assets/61301478/42779f15-ca82-4fdd-ae8f-3a0f98a1d91f)
 
 This is a prototype project aimed to assess the feasibility of employing computer vision techniques to identify guitar chords in real-time.
 
