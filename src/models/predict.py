@@ -1,13 +1,18 @@
+import argparse
 import cv2
 import numpy as np
 import tensorflow as tf
-from tensorflow import keras
 from keras_cv.layers import RandomShear
 from tensorflow_addons.optimizers import AdaBelief
 from tensorflow.keras.preprocessing import image
 
+# Set up the argument parser
+parser = argparse.ArgumentParser()
+parser.add_argument("video_name", help="path to the input video file")
+args = parser.parse_args()
+
 # Load the model from the .h5 file
-model = tf.keras.models.load_model('models/vision/min_val_loss.h5', 
+model = tf.keras.models.load_model('../../models/vision/min_val_loss.h5', 
                                     custom_objects={'RandomShear':RandomShear,
                                                     'AdaBelief':AdaBelief})
 
@@ -15,7 +20,8 @@ model = tf.keras.models.load_model('models/vision/min_val_loss.h5',
 class_labels = {0: 'CMajor', 1: 'DMajor', 2: 'GMajor'}
 
 # Load the video capture device
-cap = cv2.VideoCapture('test/test.mp4')
+video_path = f'../../test/{args.video_name}'
+cap = cv2.VideoCapture(video_path)
 
 # Create a window to display the video
 cv2.namedWindow('Video', cv2.WINDOW_NORMAL)
