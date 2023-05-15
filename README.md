@@ -25,6 +25,7 @@ Future Work:
 - Include audio data in the prediction
 
 Try the code:
+
 Place your video file inside test folder, navigate inside the src/models folder and run
 ```cmd
 python predict.py <your_video_filename>
