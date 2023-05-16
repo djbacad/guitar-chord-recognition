@@ -14,7 +14,7 @@ This is a prototype project aimed to assess the feasibility of employing compute
 - Nvidia GeForce RTX 2060 Mobile GPU
 - Ryzen 7 4800H CPU
 
-### Development Environment:
+### Operating System:
 - WSL
 
 ### Limitations:
@@ -27,7 +27,7 @@ This is a prototype project aimed to assess the feasibility of employing compute
 
 ### Try the code:
 
-Place your video file inside test folder, navigate inside the src/models folder and run:
+Place your video file inside test folder, navigate inside the src/models folder and issue the following command:
 ```cmd
 python predict.py <your_video_filename>
 ```
