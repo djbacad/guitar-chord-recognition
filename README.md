@@ -8,7 +8,7 @@ This is a prototype project aimed to assess the feasibility of employing compute
 ### Project Highlights:
 - Using only 208 images a model was trained to identify three chords (classes) namely CMaj, DMaj, and GMaj.
 - To address data scarcity, data augmentation techniques were employed. The necesasry keras custom objects were utilized for robustness.
-- Using the Tensorflow framework, the final model was created using TL&FT technique based on the EfficientNetV2B0 architecture and achieved an accuracy of 89.9% on the test set.
+- Using the [Tensorflow](https://www.tensorflow.org/) framework, the final model was created using TL&FT technique based on the EfficientNetV2B0 architecture and achieved an accuracy of 89.9% on the test set.
 
 ### Hardware:
 - Nvidia GeForce RTX 2060 Mobile GPU
